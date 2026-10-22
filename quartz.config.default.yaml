@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: gustiloesch.github.io/research_update
+  baseUrl: https://gustiloesch.github.io/research_update
   ignorePatterns:
     - private
     - templates
