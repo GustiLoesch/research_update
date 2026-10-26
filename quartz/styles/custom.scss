@@ -2,12 +2,19 @@
 
 // put your custom CSS here!
 
-/* Versteckt TOC und Backlinks, solange die Seite gesperrt ist */
+/* Hide TOC and Backlinks whenever an encrypted input form is active */
+.toc:has(~ #quartz-body form),
+.toc:has(~ form),
 body:has(.encrypted-form) .toc,
-body:has(.encrypted-form) .backlinks,
-body:has(#encrypted-form) .toc,
-body:has(#encrypted-form) .backlinks,
+body:has(.encrypted-container) .toc,
 body:has(form[action*="decrypt"]) .toc,
-body:has(form[action*="decrypt"]) .backlinks {
+body:has(.encrypted-form) .backlinks,
+body:has(.encrypted-container) .backlinks {
+  display: none !important;
+}
+
+/* Fallback: Hide sidebar elements if the encrypted wrapper is on screen */
+.encrypted-container ~ .toc,
+.encrypted-form ~ .toc {
   display: none !important;
 }
