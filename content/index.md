@@ -2,7 +2,7 @@
 title: PhD Research Progress
 publish: true
 password: Tetr@borides4?
-updated: 2026-10-22
+updated: 2026-10-26
 
 ---
 
@@ -10,15 +10,42 @@ updated: 2026-10-22
 
 Research on magnetic materials using neutron scattering, alongside development of the Virtual TOPAS simulation workflow.
 
-## Current focus
+## Project boards
 
-| Project | Focus | Next proposed milestone |
+These boards summarise the proposed milestones in each project page. **Next** identifies the first steps to agree; **Planned** holds follow-on work. No milestone completion has been recorded yet. Move cards between columns as progress is confirmed, and record the evidence in a dated update.
+
+### HoB₄
+
+Main materials project: define the scientific question, assess existing data, and prepare crystal growth.
+
+**[[Planning/Shared/HoB4|Open detailed HoB₄ project page →]]**
+
+| Next | Planned | Completed |
 | --- | --- | --- |
-| [[Planning/Shared/HoB4|HoB₄]] | Main materials project: define the scientific question, assess existing data, and prepare crystal growth. | Agree on a first analysis target and establish access to a suitable dataset. |
-| [[Planning/Shared/Virtual TOPAS|Virtual TOPAS]] | Establish a reproducible simulation-to-reduction baseline. | Produce and reduce one small elastic reference run. |
-| [[Planning/Shared/LuFeO3|LuFeO₃]] | Clarify the experimental strategy and resolution requirements. | Define the target signal and assess a suitable measurement configuration. |
+| **Select the first scientific question**<br>Agree on a focused analysis target and the evidence needed. | **Inspect the data**<br>Produce an initial plot and assess coverage, quality, and feasibility. | No completed milestones recorded. |
+| **Establish data access**<br>Obtain a usable dataset with measurement conditions and provenance. | **Confirm growth readiness — in parallel**<br>Agree on materials, training, preparation, and characterization. | |
 
-This starting overview reflects the priorities recorded in the project notes. The next milestones are proposals for discussion; their completion has not yet been recorded here.
+### Virtual TOPAS
+
+Establish a reproducible simulation-to-reduction baseline.
+
+**[[Planning/Shared/Virtual TOPAS|Open detailed Virtual TOPAS project page →]]**
+
+| Next | Planned | Completed |
+| --- | --- | --- |
+| **Recover a reproducible setup**<br>Agree on source versions, dependencies, and run instructions. | **Run a small elastic reference**<br>Save event data and a histogram with the simulation history count recorded. | No completed milestones recorded. |
+| **Resolve baseline blockers**<br>Check detector weights, timing, geometry, metadata, and file finalization. | **Reduce and validate the reference**<br>Check event/histogram agreement and an elastic peak near zero energy transfer. | |
+
+### LuFeO₃
+
+Clarify the experimental strategy and the resolution needed to distinguish the target magnetic signal.
+
+**[[Planning/Shared/LuFeO3|Open detailed LuFeO₃ project page →]]**
+
+| Next | Planned | Completed |
+| --- | --- | --- |
+| **Define the target signal**<br>Agree on energy, momentum, expected splitting, and sample or domain conditions. | **Agree the measurement sequence**<br>Justify time-of-flight and/or polarized triple-axis measurements. | No completed milestones recorded. |
+| **Assess feasibility**<br>Check resolution and accessible coverage for a realistic configuration. | **Confirm the proposal route**<br>Obtain instrument-scientist feedback and check the submission timetable. | |
 
 ## For the next discussion
 
