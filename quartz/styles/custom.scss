@@ -2,24 +2,22 @@
 
 // put your custom CSS here!
 
-/*
- * The encrypted page plugin renders a password form while the page is locked.
- * Hide the generated TOC and backlinks until that form disappears after a
- * successful unlock.
- */
-body:has(.encrypted-page-wrapper form) .toc,
-body:has(.encrypted-page-wrapper form) .table-of-contents,
-body:has(.encrypted-page-wrapper form) [class*="toc"],
-body:has(.encrypted-page-wrapper form) .md-sidebar--secondary,
-body:has(.encrypted-page-wrapper form) .backlinks,
-body:has(.encrypted-page-wrapper form) [class*="backlink"] {
+/* Hide the right sidebar while the encrypted-page form is active */
+#quartz-body:has(form) .right.sidebar,
+#quartz-body:has(input[type="password"]) .right.sidebar,
+body:has(.encrypted-page-wrapper form) .right.sidebar,
+body:has(input[type="password"]) .right.sidebar {
   display: none !important;
 }
 
-/*
- * Extra defensive fallback for any rendered sidebar wrappers.
- */
-body:has(.encrypted-page-wrapper form) .sidebar,
-body:has(.encrypted-page-wrapper form) [class*="sidebar"] {
+/* Hide TOC / backlinks inside that sidebar while the page is locked */
+#quartz-body:has(form) .toc,
+#quartz-body:has(form) .table-of-contents,
+#quartz-body:has(form) .md-sidebar--secondary,
+#quartz-body:has(form) .backlinks,
+#quartz-body:has(input[type="password"]) .toc,
+#quartz-body:has(input[type="password"]) .table-of-contents,
+#quartz-body:has(input[type="password"]) .md-sidebar--secondary,
+#quartz-body:has(input[type="password"]) .backlinks {
   display: none !important;
 }
