@@ -1,7 +1,9 @@
 ---
 title: PhD Research Progress
 publish: true
+password: Tetr@borides4?
 updated: 2026-10-22
+
 ---
 
 # PhD research progress
