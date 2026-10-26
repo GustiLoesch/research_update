@@ -8,7 +8,7 @@ tags:
 
 # LuFeO₃
 
-[[Planning/Shared/index|Research progress]]
+[[index|Research progress]]
 
 **Current focus:** Clarify the experimental strategy and whether the target magnetic signal can be resolved.
 
@@ -46,4 +46,4 @@ The existing notes contain preliminary resolution estimates and possible instrum
 
 ## Progress record
 
-- [[Planning/Shared/Updates/2026-10-22|22 October 2026 — Starting overview]]
+- [[Updates/2026-10-22|22 October 2026 — Starting overview]]

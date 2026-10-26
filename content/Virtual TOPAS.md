@@ -8,7 +8,7 @@ tags:
 
 # Virtual TOPAS
 
-[[Planning/Shared/index|Research progress]]
+[[index|Research progress]]
 
 **Goal:** Develop a reliable virtual neutron instrument workflow connecting McStas simulations, NICOS control, NeXus data output, and Scipp reduction.
 
@@ -45,4 +45,4 @@ Sample environments and polarization are subsequent extensions once this baselin
 
 ## Progress record
 
-- [[Planning/Shared/Updates/2026-10-22|22 October 2026 — Starting overview]]
+- [[Updates/2026-10-22|22 October 2026 — Starting overview]]

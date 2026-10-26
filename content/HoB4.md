@@ -8,7 +8,7 @@ tags:
 
 # HoB₄
 
-[[Planning/Shared/index|Research progress]]
+[[index|Research progress]]
 
 **Role:** Main materials project, following the focus decision recorded on 10 September 2026.
 
@@ -46,4 +46,4 @@ The project notes record HoB₄ as the preferred initial focus and contain a sur
 
 ## Progress record
 
-- [[Planning/Shared/Updates/2026-10-22|22 October 2026 — Starting overview]]
+- [[Updates/2026-10-22|22 October 2026 — Starting overview]]

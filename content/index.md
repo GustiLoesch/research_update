@@ -2,7 +2,6 @@
 title: PhD Research Progress
 publish: true
 password: Tetr@borides4?
-enableToc: false
 updated: 2026-10-26
 
 ---

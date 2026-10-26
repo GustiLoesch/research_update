@@ -1,3 +1,14 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+// Blendet das Inhaltsverzeichnis (TOC) aus, solange das Passwort-Formular aktiv ist
+.encrypted-form-active,
+form[data-encrypted="true"] ~ .toc,
+form.encrypted-page-form ~ .toc {
+  display: none !important;
+}
+
+// Sobald die Seite entschlüsselt ist, wird das TOC ganz normal angezeigt
+.decrypted-content ~ .toc {
+  display: block !important;
+}
