@@ -2,19 +2,24 @@
 
 // put your custom CSS here!
 
-/* Hide TOC and Backlinks whenever an encrypted input form is active */
-.toc:has(~ #quartz-body form),
-.toc:has(~ form),
-body:has(.encrypted-form) .toc,
-body:has(.encrypted-container) .toc,
-body:has(form[action*="decrypt"]) .toc,
-body:has(.encrypted-form) .backlinks,
-body:has(.encrypted-container) .backlinks {
+/*
+ * The encrypted page plugin renders a password form while the page is locked.
+ * Hide the generated TOC and backlinks until that form disappears after a
+ * successful unlock.
+ */
+body:has(.encrypted-page-wrapper form) .toc,
+body:has(.encrypted-page-wrapper form) .table-of-contents,
+body:has(.encrypted-page-wrapper form) [class*="toc"],
+body:has(.encrypted-page-wrapper form) .md-sidebar--secondary,
+body:has(.encrypted-page-wrapper form) .backlinks,
+body:has(.encrypted-page-wrapper form) [class*="backlink"] {
   display: none !important;
 }
 
-/* Fallback: Hide sidebar elements if the encrypted wrapper is on screen */
-.encrypted-container ~ .toc,
-.encrypted-form ~ .toc {
+/*
+ * Extra defensive fallback for any rendered sidebar wrappers.
+ */
+body:has(.encrypted-page-wrapper form) .sidebar,
+body:has(.encrypted-page-wrapper form) [class*="sidebar"] {
   display: none !important;
 }
