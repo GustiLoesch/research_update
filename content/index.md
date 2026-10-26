@@ -2,6 +2,7 @@
 title: PhD Research Progress
 publish: true
 password: Tetr@borides4?
+enableToc: false
 updated: 2026-10-26
 
 ---
@@ -18,7 +19,7 @@ These boards summarise the proposed milestones in each project page. **Next** id
 
 Main materials project: define the scientific question, assess existing data, and prepare crystal growth.
 
-**[[Planning/Shared/HoB4|Open detailed HoB₄ project page →]]**
+**[[HoB4|Open detailed HoB₄ project page →]]**
 
 | Next | Planned | Completed |
 | --- | --- | --- |
@@ -29,7 +30,7 @@ Main materials project: define the scientific question, assess existing data, an
 
 Establish a reproducible simulation-to-reduction baseline.
 
-**[[Planning/Shared/Virtual TOPAS|Open detailed Virtual TOPAS project page →]]**
+**[[Virtual TOPAS|Open detailed Virtual TOPAS project page →]]**
 
 | Next                                                                                                        | Planned                                                                                                                 | Completed                         |
 | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
@@ -40,7 +41,7 @@ Establish a reproducible simulation-to-reduction baseline.
 
 Clarify the experimental strategy and the resolution needed to distinguish the target magnetic signal.
 
-**[[Planning/Shared/LuFeO3|Open detailed LuFeO₃ project page →]]**
+**[[LuFeO3|Open detailed LuFeO₃ project page →]]**
 
 | Next | Planned | Completed |
 | --- | --- | --- |
@@ -55,6 +56,6 @@ Clarify the experimental strategy and the resolution needed to distinguish the t
 
 ## Latest progress
 
-- [[Planning/Shared/Updates/2026-10-22|22 October 2026 — Starting overview and proposed next steps]]
+- [[Updates/2026-10-22|22 October 2026 — Starting overview and proposed next steps]]
 
 Project pages describe the research plan. Dated updates record what changed, the supporting evidence, and decisions needed.
