@@ -31,10 +31,10 @@ Establish a reproducible simulation-to-reduction baseline.
 
 **[[Planning/Shared/Virtual TOPAS|Open detailed Virtual TOPAS project page →]]**
 
-| Next | Planned | Completed |
-| --- | --- | --- |
-| **Recover a reproducible setup**<br>Agree on source versions, dependencies, and run instructions. | **Run a small elastic reference**<br>Save event data and a histogram with the simulation history count recorded. | No completed milestones recorded. |
-| **Resolve baseline blockers**<br>Check detector weights, timing, geometry, metadata, and file finalization. | **Reduce and validate the reference**<br>Check event/histogram agreement and an elastic peak near zero energy transfer. | |
+| Next                                                                                                        | Planned                                                                                                                 | Completed                         |
+| ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| **Recover a reproducible setup**<br>Agree on source versions, dependencies, and run instructions.           | **Run a small elastic reference**<br>Save event data and a histogram with the simulation history count recorded.        | No completed milestones recorded. |
+| **Resolve baseline blockers**<br>Check detector weights, timing, geometry, metadata, and file finalization. | **Reduce and validate the reference**<br>Check event/histogram agreement and an elastic peak near zero energy transfer. |                                   |
 
 ### LuFeO₃
 
